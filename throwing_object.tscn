@@ -1,0 +1,75 @@
+[gd_scene format=4 uid="uid://dbc2g2ehxj23q"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_m2j7m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w6ruu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_julxe"]
+resource_name = "Material.001"
+cull_mode = 2
+albedo_color = Color(0.90635157, 0.26569784, 0.44347513, 1)
+metallic = 1.0
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8gehp"]
+_surfaces = [{
+"aabb": AABB(-0.22049235, -0.24651855, -0.20969854, 0.4409847, 0.4930371, 0.4193971),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAQADAAIAAgAEAAAAAgADAAUAAgAFAAQAAwAGAAUABAAFAAcABQAGAAcAAAAEAAgABAAHAAgAAAAJAAEAAAAIAAkAAQAKAAMACgAGAAMACQAKAAEABwAGAAsACAAHAAsACwAGAAoACAALAAkACQALAAoA"),
+"name": "Material.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("/38AAP9/AAByWMFG//8AAIznwUYazwAAjKc9uf//AACM58FG5DAAAP//Pbn/fwAA/3////9/AACMpz25AAAAAHJYwUYAAAAAAADBRv9/AAByGD25Gs8AAHIYPbnkMAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_44j6e"]
+resource_name = "scene_Icosphere"
+_surfaces = [{
+"aabb": AABB(-0.22049235, -0.24651855, -0.20969854, 0.4409847, 0.4930371, 0.4193971),
+"attribute_data": PackedByteArray("iy7//0UXr9fRRa/X0UWv11x0r9cWXf//uej//3PRr9f//6/XLbr//+iir9dz0a/Xoov//1x0r9fooq/X0UWv1xZdYK9cdK/XRRev14suYK/RRa/Xc9Gv17noYK///6/X6KKv1y26YK9z0a/XXHSv16KLYK/ooq/X0UWv14suYK8WXWCvRRev1wAAYK+LLmCvc9Gv1y26YK+56GCv6KKv16KLYK8tumCvXHSv1xZdYK+ii2Cviy5gr9FFEYcWXWCvAABgr0UXEYeLLmCvLbpgr3PREYe56GCvootgr+iiEYctumCvFl1gr1x0EYeii2Cv"),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZABoAGwAcAB0AHgAfACAAIQAiACMAJAAlACYAJwAoACkAKgArACwALQAuAC8AMAAxADIAMwA0ADUANgA3ADgAOQA6ADsA"),
+"material": SubResource("StandardMaterial3D_julxe"),
+"name": "Material.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 60,
+"vertex_data": PackedByteArray("/38AAP9/ZadyWMFG//9lp4znwUYaz2WnjOfBRhrPDciM58FG5DANyP9/AAD/fw3I/38AAP9/nLQAAMFG/3+ctHJYwUb//5y0/38AAP9/2N1yWMFGAADY3QAAwUb/f9jd/38AAP9/iPSM58FG5DCI9HJYwUYAAIj0jOfBRhrPW8D//z25/39bwIznwUbkMFvAcljBRv//6Y6Mpz25///pjoznwUYaz+mOAADBRv9/GadyGD25Gs8Zp3JYwUb//xmncljBRgAAyNlyGD255DDI2QAAwUb/f8jZjOfBRuQwQfOMpz25AABB83JYwUYAAEHzjOfBRhrPGaeMpz25//8Zp///Pbn/fxmncljBRv//6Y5yGD25Gs/pjoynPbn//+mOAADBRv9/W8ByGD255DBbwHIYPbkaz1vAcljBRgAAQfOMpz25AABB83IYPbnkMEHzjOfBRuQwyNn//z25/3/I2YynPbkAAMjZjKc9uf//nLT/f////3+ctP//Pbn/f5y0chg9uRrPZaf/f////39lp4ynPbn//2Wnchg9ueQwDcj/f////38NyHIYPbkazw3IjKc9uQAAiPT/f////3+I9HIYPbnkMIj0//89uf9/2N3/f////3/Y3YynPbkAANjdbylFZG8pRWRvKUVkLWCkPy1gpD8tYKQ/7DOZzewzmc3sM5nNSkmH7UpJh+1KSYftn3mdLp95nS6feZ0uz3VfFM91XxTPdV8UzFJcNMxSXDTMUlw092Nt7fdjbe33Y23t/2+Y+v9vmPr/b5j6RH6lDER+pQxEfqUMB5yREgeckRIHnJESMq2iyzKtossyraLLL4qf6y+Kn+svip/ruoFZ87qBWfO6gVnz/49mBf+PZgX/j2YFEsxlMhLMZTISzGUyj9a5m4/WuZuP1rmb0Z9awNGfWsDRn1rAX4Zh0V+GYdFfhmHRtLZ3ErS2dxK0tncS")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_8gehp")
+
+[sub_resource type="Animation" id="Animation_uv7kj"]
+resource_name = "Animation-loop"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "rotation_3d"
+tracks/0/imported = true
+tracks/0/enabled = true
+tracks/0/path = NodePath("Icosphere")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1, 0.033333335, 1, 0, 0, 0, 1, 1.5, 1, 6.5049903e-09, -0.9998443, -3.6326446e-09, 0.017648328, 1.5333333, 1, -6.7798e-09, 0.99984425, 3.4781023e-09, 0.01764854, 2.9666667, 1, -7.493761e-09, 0.035291176, -1.2879733e-08, 0.9993771, 3, 1, -7.1144886e-09, -8.742278e-08, -1.3285447e-08, 1)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m2j7m"]
+_data = {
+&"Animation": SubResource("Animation_uv7kj")
+}
+
+[node name="throwingObject" unique_id=1928154646 instance=ExtResource("1_m2j7m")]
+
+[node name="CollisionShape3D" parent="." index="0"]
+transform = Transform3D(0.46144104, 0, 0, 0, 0.46144104, 0, 0, 0, 0.46144104, 0, 0.014404297, 0)
+shape = SubResource("BoxShape3D_w6ruu")
+
+[node name="Icosphere" type="MeshInstance3D" parent="." index="1" unique_id=1815626045]
+mesh = SubResource("ArrayMesh_44j6e")
+skeleton = NodePath("")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2" unique_id=1889012336]
+libraries/ = SubResource("AnimationLibrary_m2j7m")
+autoplay = &"Animation"
